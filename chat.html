@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chat</title>
+</head>
+<body>
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>Program</span><span></span>'ação</h1></a>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li><a href="index.html" data-after="Home">Início</a></li>
+            <li><a href="servicos.html" data-after="Service">Serviços</a></li>
+            <li><a href="projetos.html" data-after="Projects">Projetos</a></li>
+            <li><a href="sobre.html" data-after="About">Sobre o C#</a></li>
+            <li><a href="contato.html" data-after="Contact">Contato</a></li>
+            <li><a href="chat.html" data-after="Chat">Chat</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="chat">
+    <div class="chat-topo">
+        <div class="chat-topo-foto">
+            <img src="img/img-perfil.jpeg" class="chat-foto"/>
+        </div>
+        <div class="chat-topo-text">
+            <h4>Usuário 1</h4>
+            <h5><span class='farol-status farol-green'></span>Online Agora</h5>
+        </div>
+        <div class="chat-topo-icon">
+                <i class="fas fa-fw fa-video"></i>
+                <i class="fas fa-fw fa-phone"></i>
+                <i class="fas fa-fw fa-cog"></i>
+                <i class="fas fa-fw fa-times"></i>
+        </div>
+    </div>
+    <div class="chat-conversa" id="conversa-usuario1">
+            <div class="msg msg-enviada">
+                <p>Olá, serei seu assistente em questão de dúvidas! Alguma dúvida?</p>
+            </div>
+            <div class="msg msg-recebida">
+                <p>Como faço para conseguir experiência na área?</p>
+            </div>
+    </div>
+    <div class="chat-text">
+        <input type="text" id="usuario1" value="" placeholder="Digite uma mensagem..." />
+    </div>
+</div>
+
+<div class="chat">
+    <div class="chat-topo">
+        <div class="chat-topo-foto">
+            <img src="img/img-perfil.jpeg" class="chat-foto"/>
+        </div>
+        <div class="chat-topo-text">
+            <h4>Usuario 02</h4>
+            <h5><span class='farol-status farol-green'></span>Online Agora</h5>
+        </div>
+        <div class="chat-topo-icon">
+                <i class="fas fa-fw fa-video"></i>
+                <i class="fas fa-fw fa-phone"></i>
+                <i class="fas fa-fw fa-cog"></i>
+                <i class="fas fa-fw fa-times"></i>
+        </div>
+    </div>
+    <div class="chat-conversa">
+            <div class="msg msg-enviada">
+                <p>Serei seu segundo assistente em questão dos produtos!</p>
+            </div>
+            <div class="msg msg-enviada">
+                <p>Como posso ajudar?</p>
+            </div>
+            <div class="msg msg-recebida">
+                <p>Seus serviços são excelentes!</p>
+            </div>
+    </div>
+    <div class="chat-text">
+        <input type="text" id="usuario2" placeholder="Digite uma mensagem..." />
+    </div>
+</div>
+ 
+</body>
+</html>
